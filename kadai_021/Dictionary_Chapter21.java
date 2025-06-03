@@ -25,8 +25,8 @@ public class Dictionary_Chapter21 {
 	}
 	public void searchWords(String[] words) {
 		for(String word : words) {
-			if(fruitMap.containsKey(words)) {
-				System.out.println(word + "の意味は" +fruitMap.get(words) + "です");
+			if(fruitMap.containsKey(word)) {
+				System.out.println(word + "の意味は" +fruitMap.get(word) + "です");
 			}else {
 				System.out.println(word + "は辞書にありません");
 			}
